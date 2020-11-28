@@ -1,7 +1,13 @@
 <script>
+	import 'bulma/css/bulma.css'
+	import '@fortawesome/fontawesome-free/css/all.css'
+	import Button from 'svelma/src/components/Button.svelte'
+	  
 	let name = 'world';
 </script>
+
 <svelte:head>
+	
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 	<script src="/__/firebase/8.1.1/firebase-app.js"></script>
 
